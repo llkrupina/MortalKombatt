@@ -192,12 +192,5 @@ public class Mediator {
         playerDamageValueLabel.setText(Integer.toString(player.getDamage()));
         setBagText(items);
     }
-    public void setGIF(boolean a){
-        if (a){
-            GIFLabel.setIcon(new ImageIcon("HappyNekit.jpg"));
-        }
-        else{
-            GIFLabel.setIcon(new ImageIcon("SadNekit.jpg"));
-        }
-    }
+    
 }

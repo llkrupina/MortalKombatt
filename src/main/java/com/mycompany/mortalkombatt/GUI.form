@@ -521,7 +521,7 @@
                   <Font name="Comic Sans MS" size="14" style="2"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="Nekit Semenov"/>
+                <Property name="text" type="java.lang.String" value="Fighter"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="stunLabel">

@@ -26,19 +26,19 @@ public class Location {
             switch (k) {
                 case 0 -> {
                     enemy = fullEnemiesList[0];
-                    enemy.setIcon("B.jpg");
+                    enemy.setIcon("Baraka.jpg");
                 }
                 case 1 -> {
                     enemy = fullEnemiesList[1];
-                    enemy.setIcon("SZ.jpg");
+                    enemy.setIcon("SubZero.jpg");
                 }
                 case 2 -> {
                     enemy = fullEnemiesList[2];
-                    enemy.setIcon("LK.jpg");
+                    enemy.setIcon("LiuKang.jpg");
                 }
                 case 3 -> {
                     enemy = fullEnemiesList[3];
-                    enemy.setIcon("SB.jpg");
+                    enemy.setIcon("SonyaBlade.jpg");
                 }
             }
             currentEnemiesList.add(enemy);
@@ -74,7 +74,7 @@ public class Location {
         } else {
             currentEnemyNumber = 0;
             enemy = fullEnemiesList[4];
-            enemy.setIcon("SecretBoss.jpg");
+            enemy.setIcon("Boss.jpg");
             return enemy;
         }
     }

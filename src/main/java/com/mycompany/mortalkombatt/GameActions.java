@@ -11,7 +11,7 @@ public class GameActions {
             case "Sub-Zero" -> {
                 return list.get((int) (Math.random() * 3));
             }
-            case "Lord Islam Maximov" -> {
+            case "Boss" -> {
                 list.remove(2);
                 return list.get((int) (Math.random() * 3));
             }
@@ -116,7 +116,7 @@ public class GameActions {
                     enemy.setDamage(16);
                     enemy.setMaxHealth(80);
                 }
-                case "Lord Islam Maximov" -> {
+                case "Boss" -> {
                     enemy.setLevel(1);
                     enemy.setDamage(30);
                     enemy.setMaxHealth(100);

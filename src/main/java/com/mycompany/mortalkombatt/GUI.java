@@ -23,7 +23,7 @@ public class GUI extends javax.swing.JFrame {
         game.writeToTable(recordsTable);
         game.setEnemies();
         game.fight.location.setFullEnemiesList(game.getEnemies());
-        playerIconLabel.setIcon(new ImageIcon("Nekit.jpg"));
+        playerIconLabel.setIcon(new ImageIcon("Fighter.jpg"));
         attributesGroup.add(healthButton);
         attributesGroup.add(damageButton);
         itemsGroup.add(firstItemButton);
@@ -235,7 +235,7 @@ public class GUI extends javax.swing.JFrame {
 
         playerHeroLabel.setFont(new java.awt.Font("Comic Sans MS", 2, 14)); // NOI18N
         playerHeroLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        playerHeroLabel.setText("Nekit Semenov");
+        playerHeroLabel.setText("Fighter");
 
         stunLabel.setFont(new java.awt.Font("Comic Sans MS", 0, 16)); // NOI18N
         stunLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);

@@ -107,7 +107,7 @@ public class Fight {
             mediator.revive(player, player.getItems());
         }
         if (player.getHealth() <= 0 | enemy.getHealth() <= 0) {
-            if (location.getCurrentLocation() == locationsNumber & "Lord Islam Maximov".equals(enemy.getName())) {
+            if (location.getCurrentLocation() == locationsNumber & "Boss".equals(enemy.getName())) {
                 location.resetLocation(false, 1);
                 endFinalRound(results, enemiesList);
             } else {
@@ -121,8 +121,8 @@ public class Fight {
         mediator.setEndFightDialog();
         if (player.getHealth() > 0) {
             mediator.setRoundEndText("You win");
-            mediator.setGIF(true);
-            if ("Lord Islam Maximov".equals(enemy.getName())) {
+            
+            if ("Boss".equals(enemy.getName())) {
                 action.addItems(40, 30, 10, player.getItems());
                 action.addPointsBoss(player);
                 location.resetLocation(true, player.getLevel());
@@ -133,7 +133,7 @@ public class Fight {
         } else {
             reset(enemiesList);
             mediator.setRoundEndText(enemy.getName() + " win");
-            mediator.setGIF(false);
+            
 
         }
     }
